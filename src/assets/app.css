@@ -1,0 +1,23 @@
+html.dark body {
+    background: #1a1b1d;
+}
+
+
+.nav {
+    flex: 0 1 auto
+}
+.content {
+    flex: 1 1 auto
+}
+
+.board {
+    flex: 1 1 35%
+}
+/* super lazy, but works.*/
+.aspect {
+    aspect-ratio: 1/1.25;
+}
+
+.wordRowSize {
+    height: 20%;
+}
