@@ -1,5 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html.dark body {
-    background: #1a1b1d;
+    background-color: #1a1b1d;
+}
+* {
+    transition: all .2s;
 }
 
 
@@ -20,4 +27,10 @@ html.dark body {
 
 .wordRowSize {
     height: 20%;
+}
+
+@layer components {
+    .KeyboardButton {
+        @apply cursor-pointer prose dark:prose-invert text-center dark:bg-neutral-900 p-2 border-2 dark:border-zinc-800 rounded-lg shadow-md h-16 flex justify-center items-center px-5
+    }
 }

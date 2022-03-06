@@ -4,7 +4,7 @@
   import Nav from "./lib/Nav.svelte";
   import GameBoard from "./lib/GameBoard.svelte";
   import './assets/app.css'
-  document.documentElement.classList.add('dark')
+  // document.documentElement.classList.add('dark')
 </script>
 
 <main>
@@ -15,7 +15,5 @@
 </main>
 
 <style>
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+
 </style>
